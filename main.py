@@ -1,3 +1,4 @@
+'''
 # 1. import fastAPI from FastAPI class
 from fastapi import FastAPI
 
@@ -15,3 +16,4 @@ def hello():
 def about():
     return {'msg':'Welcome to our second fastapi endpoint'}
 
+'''
