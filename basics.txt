@@ -1,0 +1,30 @@
+FASTAPI - python backend framework
+NOTE - 
+In AI, we build ML models, DL models, Generative models but in order to deliver the application to end-user to showcase your application workflow, we need to create a interactive UI/ website/ mobile APP for representing that application / builded models to end-users, for this we need to build an API for that ML/DL models[application programming interface - that tells background functionality of our website/mobile app]. In Python, API can be build using several frameworks like - Django, Flask or FastAPI.
+
+FastAPI is a python web-based framework through which we can develop a highly-scalable, robust, idustry-grade API's.
+
+API's - Application Programming Interface
+Q. WHAT IS AN API - 
+1. API's are mechanisms that enable two software components - such as the frontend and backend of an application - to communicate with each other using a defined set of rules, protocols and data formats.
+2. API can be considered as a connector btw frontend and backend component.
+3. Via usage of API we can connect both these software components.
+
+
+API in terms of software perspective ---
+HOW IT WORKS -
+Frontend component sends request data to Backend component via API now it will interact/search given data in the database and then Backend compontent sends response data via API to that particular request in certain data format [JSON format] to Frontend component. Then frontend component will display the response data to the end-user.
+NOTE - Certain kind of protocols are followed, whole process is bounded by HTTP protocol [udemy website example].
+ex - Udemy website user searching for AI agents course
+
+
+NEED FOR API's -
+In Pre-API era, how does frontend component interact with backend component -- via monolithic architecture [in same src directory frontend and backend component are tightly coupled so that change in either of component would effect entire website application] it can interact without use of API's [Then, why do we need API nowdays , whats the drawback/problems in monolithic architecture -- 
+1. tightly coupled nature - data stored in Database can't be shared with any third party authority, this data will only be shared by our own application [monolithic application]
+Solution - make use of API, stop following monolithic architecture, and decouple our own application [which means backend and frontend component are build seperatly - they are different s/w applications]]
+
+
+API in terms of ML perspective --- same as that of s/w rules... with minute difference
+ex - Chatgpt, Amazon website recommender system
+Only difference lies with here there is no DB inside this architecture, here we only have ML model instead of DB, architecture -  ML model -- backend -- api layer -- frontend..
+
